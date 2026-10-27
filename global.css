@@ -1,3 +1,4 @@
+/* Nav Section */
 :root{
     --primary-color: #DC9DBA;
     --secondary-color: #DC9CCA;
@@ -5,3 +6,44 @@
     --triadic-color: #77A0CE;
     --extra-color: #F7F3EF;
 }
+
+
+.header-image{
+    max-height: 100px;
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.site-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--extra-color);
+    border-radius: 20px;
+    padding:10px;
+}
+
+.site-nav{
+    padding:10px;
+}
+
+.btn-1{
+    margin:15px;
+    padding:16px 32px;
+    background-color: var(--secondary-color);
+    color:black;
+    border: 1px solid black;
+    border-radius:50px;
+    box-shadow: 4px 4px black;
+    font-size:larger;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-1:hover{
+    background-color: var(--contrast-color);
+}
+
+/* Hero Section Page 1 */
+
