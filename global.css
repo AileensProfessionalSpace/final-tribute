@@ -12,6 +12,7 @@
     max-height: 100px;
     max-width: 300px;
     border-radius: 20px;
+    border:3px solid black;
 }
 
 .site-header{
@@ -22,6 +23,15 @@
     background-color: var(--extra-color);
     border-radius: 20px;
     padding:10px;
+
+}
+
+.site-header{
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:1000;
 }
 
 .site-nav{
@@ -47,3 +57,103 @@
 
 /* Hero Section Page 1 */
 
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--triadic-color);
+    opacity: 0.8;
+    border-radius: 30px;
+    margin-top:150px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    border:3px solid black;
+}
+
+.hero-parts{
+    border: solid var(--extra-color) 3px;
+    border-radius: 20px;
+    padding:20px;
+}
+
+.hero-p{
+    font-size: x-large;
+}
+.hero-image{
+    width:550px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+/* Main-Info */
+
+.artist-image{
+    width:300px;
+    border-radius: 30px;
+}
+
+.artist{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--primary-color) ;
+    opacity: 0.8;
+    border-radius: 40px;
+    margin-top:10px;
+    border:3px solid black;
+}
+
+.artist-description{
+    font-size: x-large; 
+    margin-left:10px
+
+}
+
+.why-image{
+    width:350px;
+    height:360px;  
+    border-radius: 30px;     
+}
+
+.why-first{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--primary-color) ;
+    opacity: 0.8;
+    border-radius: 40px;
+    margin-top:10px;
+    border:3px solid black;
+    
+}
+
+.why-description{
+    font-size: x-large; 
+    margin-left:10px
+
+}
+
+.why-title{
+    font-size: xx-large;
+    margin-left: 10px;
+
+}
+
+.site-footer{
+    background-color: var(--secondary-color);
+    padding-top:20px;
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border:3px solid black;
+}
+
+.footer-text{
+    font-size:smaller;
+}
+
+.footer-quote{
+    font-size: xx-large;
+}
