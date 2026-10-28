@@ -15,18 +15,22 @@
     border:3px solid black;
 }
 
-.site-header{
-    display:flex;
+.custom-flex {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.site-header{
+    /* display:flex;
+    flex-direction: row;
+    justify-content: space-between; */
     align-items: center;
     background-color: var(--extra-color);
     border-radius: 20px;
     padding:10px;
 
-}
-
-.site-header{
+    /* This keeps the nav in place */
     position: fixed;
     width:100%;
     top:0;
@@ -58,8 +62,8 @@
 /* Hero Section Page 1 */
 
 .hero{
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     align-items: center;
     background-color: var(--triadic-color);
     opacity: 0.8;
@@ -126,6 +130,7 @@
     border-radius: 40px;
     margin-top:10px;
     border:3px solid black;
+    margin: 10px;
     
 }
 
@@ -221,7 +226,7 @@
 }
 
 .about-start{
-    margin-top:150px;
+    margin-top:225px;
     background-color: var(--triadic-color);
     opacity: 0.8;
     border: 3px solid black;
@@ -264,4 +269,103 @@
     margin-top:150px;
     border:3px solid black;
 
+}
+
+.layout-container{
+    display:flex;
+    min-height: 100dvh;
+   
+}
+
+.site-aside-right{
+    background-color: var(--secondary-color);
+    margin-top: 140px;
+    border-radius: 20px;
+    border:2px solid black;
+}
+
+.site-aside-right li{
+    font-size: larger;
+}
+
+.all-cards-still{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.still-life-card{
+    background-color: var(--contrast-color);
+    padding:10px;
+    border-radius: 20px;
+    margin:10px;
+}
+.still-life-card img{
+    border-radius: 20px;
+    border:3px solid black;
+}
+
+.all-cards-people{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.people-card{
+    background-color: var(--contrast-color);
+    padding:10px;
+    border-radius: 20px;
+    margin:10px;
+
+}
+
+.people-card img{
+    border-radius: 20px;
+    border:3px solid black;
+
+}
+
+.all-cards-landscapes{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+}
+
+.landscape-card{
+    background-color: var(--contrast-color);
+    padding:10px;
+    border-radius: 20px;
+    margin:10px;
+    border: 3px
+
+}
+
+.landscape-card img{
+     border-radius: 20px;
+    border:3px solid black;
+
+}
+
+@media (max-width: 1023px) {
+    .custom-flex {
+        flex-direction: column;
+    }
+
+    .all-cards-still{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .layout-container{
+        display:block;
+    }
+
+    .all-cards-landscapes{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .all-cards-people{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
