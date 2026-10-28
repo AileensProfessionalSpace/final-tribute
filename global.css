@@ -78,11 +78,13 @@
 
 .hero-p{
     font-size: x-large;
+
 }
 .hero-image{
-    width:550px;
+    width:600px;
     border-radius: 30px;
     transition: 0.3s;
+    margin-left: 10px;
 }
 
 /* Main-Info */
@@ -156,4 +158,110 @@
 
 .footer-quote{
     font-size: xx-large;
+}
+
+
+/* About Page */
+
+.early-life-image{
+    border: 2px solid black;
+    border-radius:20px;
+
+}
+
+.family-image{
+    border:2px solid black;
+    border-radius:20px;
+
+}
+
+.career-journey-image{
+    width:500px;
+    border:2px solid black;
+    border-radius:20px;
+
+
+}
+
+.early-life{
+    display:flex;
+    align-items: center;
+    font-size: x-large;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    margin:10px;
+    border: 3px solid black;
+    border-radius: 20px;
+
+}
+
+.family{
+    display:flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    font-size:x-large;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    margin:10px;
+    border: 3px solid black;
+    border-radius: 20px;
+
+}
+
+.career-journey{
+    display:flex;
+    align-content: center;
+    font-size: x-large;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    margin:10px;
+    border: 3px solid black;
+    border-radius: 20px;
+
+}
+
+.about-start{
+    margin-top:150px;
+    background-color: var(--triadic-color);
+    opacity: 0.8;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.about-start p{
+    font-size: larger;
+}
+
+
+/* Gallery Page */
+
+.still-life-card img{
+    width:350px;
+    max-height: 500px;
+
+}
+
+.people-card img{
+    width:350px;
+    max-height: 500px;
+}
+
+.landscape-card img{
+    width:350px;
+    max-height: 500px;
+}
+
+.gallery-intro{
+    font-size: larger;
+}
+
+.gallery-start{
+    background-color: var(--triadic-color);
+    opacity: 0.8s;
+    padding:10px;
+    border-radius:20px;
+    margin-top:150px;
+    border:3px solid black;
+
 }
