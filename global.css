@@ -363,8 +363,6 @@ text-decoration:none;
 
 
 
-
-
 @media (max-width: 1023px) {
     .custom-flex {
         flex-direction: column;
@@ -385,5 +383,17 @@ text-decoration:none;
 
     .all-cards-people{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-quote{
+        text-align: center;
+    }
+
+    .career-journey-image{
+        align-self:center;
+    }
+
+    .site-aside-right{
+        text-align: center;
     }
 }
