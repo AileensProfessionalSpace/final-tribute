@@ -42,6 +42,15 @@
     padding:10px;
 }
 
+.site-nav a{
+text-decoration:none;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
 .btn-1{
     margin:15px;
     padding:16px 32px;
@@ -159,11 +168,16 @@
 
 .footer-text{
     font-size:smaller;
+    
 }
 
 .footer-quote{
     font-size: xx-large;
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 800;
+  font-style: normal;
 }
+
 
 
 /* About Page */
@@ -346,6 +360,10 @@
     border:3px solid black;
 
 }
+
+
+
+
 
 @media (max-width: 1023px) {
     .custom-flex {
